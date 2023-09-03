@@ -1,0 +1,21 @@
+.swiper-scrollbar {
+  height: 2px !important;
+}
+/* .swiper-scrollbar .swiper-scrollbar-horizontal {
+  width: 100% !important;
+} */
+.swiper-scrollbar-drag {
+  background-color: black !important; /* Set the background color of the scrollbar track */
+  border-radius: 5px; /* Add rounded corners to the track */
+}
+/* @media screen and (max-width: 1024px) {
+  .swiper-scrollbar {
+    width: 85% !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .swiper-scrollbar {
+    margin: 0 20px !important;
+    width: 90% !important;
+  }
+} */

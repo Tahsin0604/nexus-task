@@ -1,0 +1,22 @@
+.banner-img {
+  background-image: url("./../../../public/img/banner.jpg");
+  background-position: 80% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scale: 1.26;
+}
+@media screen and (min-width: 1024px) {
+  .banner-img {
+    background-image: url("./../../../public/img/banner-md.jpg");
+    background-position: 50% 100%;
+    width: auto;
+    scale: 1;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner-img {
+    background-image: url("./../../../public/img/banner-sm.jpg");
+    /* background-position: center; */
+    scale: 1;
+  }
+}
